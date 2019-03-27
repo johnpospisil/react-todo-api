@@ -7,7 +7,7 @@ var todoSchema = new mongoose.Schema({
     },
     completed: {
         type: Boolean,
-        defaults: false
+        default: false
     },
     created_date: {
         type: Date,
