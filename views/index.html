@@ -3,6 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Todo List</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="app.css">
@@ -14,12 +19,12 @@
 </head>
 <body>
     <header>
-        <h1>todo<span>list</span></h1>
+        <h1><char class="blue bold">T</char><char class="red">o</char><char class="yellow">d</char><char class="red">o</char><char class="green bold">L</char><char class="red">i</char><char class="yellow">s</char><char class="blue">t</char></h1>
         <h2>A simple todo list app built with node, express, and mongoDB</h2>
     </header>
     
     <section>
-        <input type="text" id="todoInput" placeholder="Insert your task here...">
+        <input type="text" id="todoInput" placeholder="Add task here...">
     </section>
     
     <ul class="list"></ul>
