@@ -1,84 +1,84 @@
-@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700'); 
- 
+@import url("https://fonts.googleapis.com/css?family=Kalam:300,400,700");
+
 body {
-	font-family: 'Kalam', sans-serif;
-	background: #ecf0f1;
+  font-family: "Kalam", sans-serif;
+  background: #ecf0f1;
 }
 
 /*****************************HEADER STYLES*****************************/
 header {
-	text-align: center;
+  text-align: center;
 }
 header h1 {
-	font-size: 64px;
-	font-weight: 300;
-	margin: 80px 0 25px;
+  font-size: 64px;
+  font-weight: 300;
+  margin: 80px 0 25px;
 }
 .bold {
-	font-weight: 700;
+  font-weight: 700;
 }
 header h2 {
-	color: #bdc3c7;
-	font-weight:300;
+  color: #bdc3c7;
+  font-weight: 300;
 }
 
 .blue {
-    color: #4185f4;
+  color: #4185f4;
 }
 
 .red {
-    color: #ee4236;
+  color: #ee4236;
 }
 
 .yellow {
-    color: #fcbb07;
+  color: #fcbb07;
 }
 
 .green {
-    color: #34a853;
+  color: #34a853;
 }
 /*****************************FORM STYLES*****************************/
 
 .form {
-	width: 800px;
-	margin: 50px auto 20px;
+  width: 800px;
+  margin: 50px auto 20px;
 }
 
 #todoInput {
-	width: 100%;
-	height: 60px;
-	background: none;
-	border: none;
-	border-bottom: 1px solid #34495e;
-	outline: none;
-	font: 300 28px 'Ubuntu', sans-serif;
-	padding: 20px;
-	color: #34495e;
+  width: 100%;
+  height: 60px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #34495e;
+  outline: none;
+  font: 300 28px "Ubuntu", sans-serif;
+  padding: 20px;
+  color: #34495e;
 }
 
 /*****************************LIST STYLES*****************************/
 .list {
-	max-width: 800px;
-	margin: 20px auto;
+  max-width: 800px;
+  margin: 20px auto;
 }
 .task {
-	font-size: 20px;
-	padding: 0 20px;
-	color: #34495e;
-	transition: all .3s ease;
+  font-size: 20px;
+  padding: 0 20px;
+  color: #34495e;
+  transition: all 0.3s ease;
 }
 .task:hover {
-	background: rgba(0, 0, 0, .02);
-	cursor: pointer;
+  background: rgba(0, 0, 0, 0.02);
+  cursor: pointer;
 }
 
-.task:hover span{
-	opacity: 1;
+.task:hover span {
+  opacity: 1;
 }
 
 .done {
-	text-decoration: line-through;
-	color: #bdc3c7;
+  text-decoration: line-through;
+  color: #bdc3c7;
 }
 
 li span {
@@ -89,5 +89,5 @@ li span {
 }
 
 li span:hover {
-  color: #e74c3c
+  color: #e74c3c;
 }
